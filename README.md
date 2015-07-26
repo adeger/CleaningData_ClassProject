@@ -28,4 +28,4 @@ Using something like Rscript.exe from the command line on Windows is messier but
  - cd c:\path_to_my_unzipped_data_file\UCI\ HAR\ Dataset
  - "c:\Program Files\R\R-3.2.0\bin\Rscript.exe" -e "source(\\\\"path_to_my/run_analysis.R\\\\")" -e "do_all()"
 
-This should not be broken across lines and the path to your Rscript.exe executable is, of course, machine dependent.  As with the R console approach the same file is written to disk.
+This should not be broken across lines and the path to your Rscript.exe executable is, of course, machine dependent as is the path to your run_analys.R file.  Note also that on the Windows command line three backslashes are needed to escape the quotes for the file in the -e "source()" construct which is hard to show correctly in markdown (Sheesh!).  As with the R console approach the same file is written to disk.
