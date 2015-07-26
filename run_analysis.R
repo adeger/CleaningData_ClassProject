@@ -21,7 +21,10 @@
 #   - ./train/X_train.txt
 #   - ./train/y_train.txt
 # 
-# to run source this directory
+# to run, source this script in R console (or possibly R Studio), and run "do_all()" (without quotes).
+# A data.frame will be returned with the required (mean summary) data set.  In addition, the file
+# Acceleration_Data_Means_Summarized_by_Subject&Activity.txt will be generated readable by the
+# read.table() function.
 
 library(dplyr)   # required library
 
